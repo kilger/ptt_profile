@@ -1,4 +1,4 @@
-#----- AWS --------
+#----- AWS -------
 # https://github.com/nahamsec/recon_profile/blob/master/.bash_profile
 s3ls(){
 aws s3 ls s3://$1
