@@ -1,3 +1,37 @@
+#################################
+# Simple Program Name Shortening
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+
+alias g=git
+alias gita="git add -A ."
+alias gitc="git commit -m"
+alias gitp="git push"
+alias gits="git status"
+
+alias la = "ls -al"
+alias lll = "ls -all | less"
+alias lt= "ls --tree"
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+alias sstatus="sudo systemctl status -l"
+alias srestart="sudo systemctl restart"
+
+
+# Bash History Changes
+export HISTTIMEFORMAT="%F %T
+export HISTSIZE=3000
+export HISTCONTROL=$HISTCONTROL:ignorespace
+export HISTCONTROL=$HISTCONTROL:ignoredups
+
+#############################
+
+
 #----- AWS -------
 # https://github.com/nahamsec/recon_profile/blob/master/.bash_profile
 s3ls(){
