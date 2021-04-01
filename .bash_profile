@@ -20,9 +20,10 @@ alias lt="ls --tree"
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
+
 alias sstatus="sudo systemctl status -l"
 alias srestart="sudo systemctl restart"
-
+# none
 
 # Bash History Changes
 #export HISTTIMEFORMAT="%F %T
